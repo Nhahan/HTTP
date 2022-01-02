@@ -1,6 +1,8 @@
 # HTTP
 
-- HTTP 스터디
+<strong>HTTP 스터디</strong>
+
+- 교재 : HTTP 완벽 가이드
 
 ## 메시지
 
