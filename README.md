@@ -8,5 +8,3 @@
 <b>1장.</b> [HTTP 개관](https://github.com/Nhahan/HTTP/wiki/1%EC%9E%A5.-HTTP-%EA%B0%9C%EA%B4%80)
 
 <b>2장.</b> [URL과 리소스](https://github.com/Nhahan/HTTP/wiki/2%EC%9E%A5.-URL%EA%B3%BC-%EB%A6%AC%EC%86%8C%EC%8A%A4)
-
-![image](https://user-images.githubusercontent.com/81916648/147944304-3a0c35e9-35db-4a1a-8430-48cf120b1d26.png)
