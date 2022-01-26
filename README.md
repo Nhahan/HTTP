@@ -15,6 +15,8 @@
 
 <b>5장.</b> [웹 서버](https://github.com/Nhahan/HTTP/wiki/5%EC%9E%A5.-%EC%9B%B9%EC%84%9C%EB%B2%84)
 
+<b>5장.</b> [프록시](https://github.com/Nhahan/HTTP/wiki/5%EC%9E%A5.-%EC%9B%B9%EC%84%9C%EB%B2%84)
+
 <br><br><br><br><br><br><br><br><br><br>
 
 # 11장. 클라이언트 식별과 쿠키
