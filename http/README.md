@@ -1,6 +1,9 @@
-#### IP(Internet Protocol)
+
+# IP(Internet Protocol)
 
 ![image](https://user-images.githubusercontent.com/81916648/208331182-cede0663-19ff-4744-b8c4-7a5706c196a2.png)
+
+<br>
 
 ### IP의 한계
 
@@ -16,6 +19,8 @@
   
 ![image](https://user-images.githubusercontent.com/81916648/208330994-bacbc83b-b4e5-473c-ba24-d5c32e213e18.png)
   
+<br><br>
+
 ### 이러한 IP의 한계를 해결해주는게 TCP, UDP
 
 ## TCP 특징 (Transmission Control Protocol) 전송 제어 프로토콜
@@ -37,12 +42,27 @@
 
 단순 (IP)Internet Protocol과 다르게 TCP는 여러가지 정보를 추가적으로 패킷에 담고 있다. 그렇기 때문에 데이터나 순서, 신뢰성들을 보장할 수 있는 것이다.
 
-## UDP 특징 (User Datagram Protocol) 사용자 데이터그램 프로토콜
+<br><br>
+
+### UDP 특징 (User Datagram Protocol) 사용자 데이터그램 프로토콜
 
 - handshake, 신뢰성, 데이터 전달 보장, 순서보장 다 없지만 빠름
 - 즉, IP와 거의 같지만 PORT와 체크섬 정도가 추가
 
-### DNS
+## DNS
 
 - IP 주소는 알기 어렵다. (172.27.84.254...)
 - IP 주소는 바뀔 수 있다.
+
+![image](https://user-images.githubusercontent.com/81916648/208335597-45579399-c213-4ff3-b482-41d839a0a820.png)
+
+<br><br><br>
+
+# HTTP
+
+- HTTP 1.1: 현대 HTTP의 기본
+- HTTP2: 1.1의 개선버전
+- HTTP3: UDP로 성능 개선
+
+## HTTP 특징
+
