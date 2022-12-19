@@ -58,7 +58,7 @@
 
 <br><br><br>
 
-# HTTP
+# HTTP (HyperText Transfer Protocol)
 
 - HTTP 1.1: 현대 HTTP의 기본
 - HTTP2: 1.1의 개선버전
@@ -66,3 +66,31 @@
 
 ## HTTP 특징
 
+그 전에 Stateless와 Stateful에 대해서 알아야한다.
+Stateless는 상태유지를 하지 않기 때문에 서버를 수평적 확장하기 좋다.
+Stateful은 확장이 힘들기 때문에 되도록 Stateless로 설계를 해야한다. 단, Stateless는 상태가 없어 정보를 알기 위해 데이터량이 커진다는 단점이 있다.
+
+### 시작라인
+
+```
+GET /search?query=검색어&lang=ko HTTP/1.1
+HOST: www.naver.com
+```
+
+Request
+종류: GET, POST, PUT, DELETE... 
+
+<hr>
+
+```
+HTTP/1.1 200 OK
+Content-Type: text/html;charset=UTF-8
+Content=Length: 1234
+
+<html>
+  <body>...</body>
+</html>
+/```
+
+- HTTP Header: HTTP 전송에 필요한 모든 부가 정보
+- HTTP Body: 실제 전송할 데이터(HTML 문서, 이미지, 영상 등등)
