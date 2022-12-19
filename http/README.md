@@ -72,15 +72,17 @@ Stateful은 확장이 힘들기 때문에 되도록 Stateless로 설계를 해�
 
 ### 시작라인
 
+Request
+종류: GET, POST, PUT, DELETE... 
+
 ```
 GET /search?query=검색어&lang=ko HTTP/1.1
 HOST: www.naver.com
 ```
 
-Request
-종류: GET, POST, PUT, DELETE... 
-
 <hr>
+
+Response
 
 ```
 HTTP/1.1 200 OK
@@ -90,7 +92,7 @@ Content=Length: 1234
 <html>
   <body>...</body>
 </html>
-/```
+```
 
 - HTTP Header: HTTP 전송에 필요한 모든 부가 정보
 - HTTP Body: 실제 전송할 데이터(HTML 문서, 이미지, 영상 등등)
