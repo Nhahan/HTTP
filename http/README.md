@@ -34,9 +34,11 @@
 
 클라이언트가 SYN(접속요청)을 보내면 서버가 ACK(요청수락)을 하고 SYN을 보내면 클라가 ACK를 보낸다.
 
-클라: 접속요쳥할게
-서버: ㅇㅋ. 나도 할게
-클라: ㅇㅋ (요즘은 최적화가 되어서 이 때 데이터도 같이 전송함)
+클라: 접속요쳥할게  
+서버: ㅇㅋ. 나도 할게  
+클라: ㅇㅋ (요즘은 최적화가 되어서 이 때 데이터도 같이 전송함)  
+
+<br>
 
 ![image](https://user-images.githubusercontent.com/81916648/208334149-f963f844-3220-48a8-bd69-4cc0c44170aa.png)
 
@@ -73,7 +75,7 @@ Stateful은 확장이 힘들기 때문에 되도록 Stateless로 설계를 해�
 ### 시작라인
 
 Request
-종류: GET, POST, PUT, DELETE... 
+종류: GET, POST, PUT, PATCH, DELETE... 
 
 ```
 GET /search?query=검색어&lang=ko HTTP/1.1
@@ -96,3 +98,20 @@ Content=Length: 1234
 
 - HTTP Header: HTTP 전송에 필요한 모든 부가 정보
 - HTTP Body: 실제 전송할 데이터(HTML 문서, 이미지, 영상 등등)
+
+
+GET: 조회
+POST: 등록 그 외
+PUT: 수정(교체)
+PATCH: 일부 수정
+DELETE: 삭제
+
+HEAD: body가 없는 GET
+OPTIONS:  (network tab -> other tab 확인 가능)
+
+
+#### 컨트롤 URI
+
+쓸 일은 잘 없지만 알아만 두자. 
+
+ex) POST ~/users/1/delete
