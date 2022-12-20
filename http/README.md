@@ -129,3 +129,9 @@ ex) POST ~/users/1/delete
 - 5xx: 서버 에러
   - 500 Internal Server Error: 서버 내부 문제로 오류 발생 (대부분의 5xx 에러)
   - 503 Service Unavailable: 서버 과부하, 작업으로 인해 요청 처리할 수 없음
+
+
+### 쿠키
+
+- Set-Cookie: 서버->클라이언트 쿠키 전달(Response)
+- Cookie: 클라이언트->서버(Request)
